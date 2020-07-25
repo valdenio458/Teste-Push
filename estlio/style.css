@@ -1,17 +1,33 @@
 body{
     background-color: antiquewhite;
-    width: 200px;
+    margin:0 auto;
 
 }
 
 h1{
-    width: 60%;
-    margin: 0 auto;
-    font-size: 50px;
+   
     
+    text-align: center;
+    text-decoration: underline;
+ 
 }
-
-
+h3{
+    text-shadow: black;
+}
 img{
     box-shadow: 5px 1px 8px black;
+       
+}
+
+.item{
+    margin:10px ;
+    padding:10px ;
+    font-size:20px ;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
 }
